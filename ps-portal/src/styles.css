@@ -1,0 +1,61 @@
+:root {
+  --els-primary: #4a90e2; /* Soft blue */
+  --els-secondary: #f0f4f8; /* Light grey-blue */
+  --els-bg: #ffffff; /* White background */
+  --els-text: #2c3e50; /* Dark slate */
+  --els-accent: #f5a623; /* Warm amber */
+  --els-success: #27ae60;
+  --els-danger: #e74c3c;
+  --els-muted: #7f8c8d;
+}
+
+body {
+  background-color: var(--els-secondary);
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  color: var(--els-text);
+}
+
+/* Navbar */
+.ps-navbar {
+  background: var(--els-primary);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.ps-sidebar {
+  background: #ffffff;
+  min-height: 100vh;
+  border-right: 1px solid #e0e6eb;
+  padding-top: 1rem;
+}
+
+.ps-sidebar .nav-link {
+  color: var(--els-text);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.ps-sidebar .nav-link.active {
+  background-color: var(--els-primary);
+  color: #fff;
+}
+
+/* Cards */
+.ps-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+.ps-footer {
+  background: #ffffff;
+  border-top: 1px solid #e0e6eb;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.85rem;
+  color: var(--els-muted);
+}
