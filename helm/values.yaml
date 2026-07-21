@@ -9,7 +9,7 @@ namespace: iels-dev
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: docker.io/sekharinweb/iels-unified-web-app
+  repository: docker.io/sekharinweb/iels-ps-web-app
   tag: "latest"
   pullPolicy: IfNotPresent
 
@@ -61,9 +61,9 @@ service:
 # This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/
 ingress:
   enabled: true
-  host: "unified-cwa.ielsportal.com"
-  managedCertificate: "els-unified-cert"
-  staticIpName: "iels-unified-ip" # optional
+  host: "ps-cwa.ielsportal.com"
+  managedCertificate: "els-ps-cert"
+  staticIpName: "iels-ps-ip" # optional
   annotations: {}
 
 resources:

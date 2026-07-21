@@ -1,5 +1,5 @@
 apiVersion: v2
-name: iels-unified-web-app
+name: iels-ps-web-app
 description: Production Helm chart for Vite + NGINX React app
 type: application
 version: 0.1.0

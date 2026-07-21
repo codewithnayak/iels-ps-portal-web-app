@@ -17,10 +17,10 @@ variables:
     value: "$(dockerhubPass)"
 
   - name: IMAGE_NAME
-    value: "iels-unified-web-app"
+    value: "iels-ps-web-app"
 
   - name: APP_NAME
-    value: "iels-unified-web-app"
+    value: "iels-ps-web-app"
 
   - name: IMAGE_TAG
     value: "$(Build.BuildId)"
