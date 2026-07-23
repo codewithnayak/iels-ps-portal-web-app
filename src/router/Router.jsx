@@ -15,7 +15,7 @@ import MIDashboard from "../pages/MIDashboard.jsx";
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/station">
       <App>
         <Routes>
           <Route path="/" element={<Dashboard />} />
